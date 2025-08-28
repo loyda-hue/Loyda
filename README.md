@@ -27,3 +27,35 @@ capitals={"usa":"wash",
 #	print(item)
 #for key, value in capitals.items():
 #	print(f"{key}: {value}")
+
+#Cocession stand program
+menu={"pizza":50,
+              "bread":30,
+              "eag": 3,
+              "coffee":6
+              }
+print("-------------Menu------------")
+for key, value in menu.items():
+	print(f"{key}: ${value}")
+print("--------------------------------")
+
+cart=[]
+total=0
+while True:
+	food= input("select an item (q to quit): " ).lower()
+	if food=="q":
+		break
+	elif menu.get(food) is not None:
+		cart.append(food)
+	else:
+		print("sorry the item does't exist")
+
+print("-------*----*----*----*----*----*----")
+for food in cart:
+	total+=menu.get(food)
+
+print("********YOUR ORDER*********")
+
+print(food, end=" ")
+
+print(f"the total amount is ${total}")
