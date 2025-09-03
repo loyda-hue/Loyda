@@ -104,3 +104,23 @@ while is_running:
 	else:
 		print(" invalid guess")
 		print("please select a number between { lowest_num} and {highest_num}")
+
+
+
+#def student(name, age, grade, average, rank):
+#	print(f" welcome {name} to twuld amare school. ")
+#	print(f"you are {age} years old. ")
+#	print(f"you are grade {grade} student.")
+	#print(f"your average mark is: {average} ")
+#	print(f"you are {rank} out of 30")
+#student("Beza", 9, 3, 86, 24)
+#print("-*-*-*-*-*-*")
+
+#student("Naod", 4,"kg1", 92, 6)
+#print("-*-*-*-*-*-*+*")
+
+#student("Betelhem", 20, "first year", 95, 2)
+
+#import random
+##for a in range(2):
+#	print(random.randint(1,4))
