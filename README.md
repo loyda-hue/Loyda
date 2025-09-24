@@ -160,3 +160,18 @@ if "@" in email and '.' in email:
 else:
 	print(' invalid email')
 
+
+
+
+
+#list compressions
+doubles= [x*2 for x in range (1,11)]
+triples=[y*3 for y in range (1,11)]
+square=[z*z for z in range (1,11)]
+print(doubles)
+print (triples)
+print(square)
+fruits=('apple', 'banana', 'orange',  'mango')
+fruit_chars=[fruits[0] for fruit in fruits]
+print(fruit_chars)
+
