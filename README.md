@@ -31,6 +31,9 @@ capitals={"usa":"wash",
 
 2
 
+
+
+
 #Cocession stand program
 menu={"pizza":50,
               "bread":30,
@@ -64,6 +67,8 @@ print(food, end=" ")
 print(f"the total amount is ${total}")
 
 3
+
+
 
 import random
 
@@ -107,6 +112,8 @@ while is_running:
 
 
 
+
+
 #def student(name, age, grade, average, rank):
 #	print(f" welcome {name} to twuld amare school. ")
 #	print(f"you are {age} years old. ")
@@ -124,3 +131,32 @@ while is_running:
 #import random
 ##for a in range(2):
 #	print(random.randint(1,4))
+
+
+
+
+#membership operators
+#1.in
+#
+#2.not in
+word= 'Betty code'
+letter= input(' guess a letter in the word   ')
+if letter not in word:
+	print(f" there is not {letter}")
+else:
+	print(f'{letter} is  found')
+
+
+students=('betty', 'dan', 'roba', 'zorba', 'nadu')
+student=input('enter student name')
+if student in students:
+	print(f'{student} was found')
+else:
+	print(f' {student} was not found')
+	
+email= 'bettycode@gmail.com'
+if "@" in email and '.' in email:
+	print(' valid email')
+else:
+	print(' invalid email')
+
