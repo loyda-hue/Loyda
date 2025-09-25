@@ -175,3 +175,17 @@ fruits=('apple', 'banana', 'orange',  'mango')
 fruit_chars=[fruits[0] for fruit in fruits]
 print(fruit_chars)
 
+n=[1,2,-3,-4,5,6]
+p_n=[n for n in n if n>=0]
+n_n=[n for n in n if n<=0]
+e_n=[n for n in n if n%2==0]
+o_n=[n for n in n if n%2==1]
+print(p_n)
+print(n_n)
+print(e_n)
+print(o_n)
+grades= [65,80,92,43,21,31,48,79]
+passing_grade=[grade for grade in grades if grade>=50]
+print(passing_grade)
+
+
