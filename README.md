@@ -165,6 +165,7 @@ else:
 
 
 #list compressions
+
 doubles= [x*2 for x in range (1,11)]
 triples=[y*3 for y in range (1,11)]
 square=[z*z for z in range (1,11)]
@@ -174,7 +175,6 @@ print(square)
 fruits=('apple', 'banana', 'orange',  'mango')
 fruit_chars=[fruits[0] for fruit in fruits]
 print(fruit_chars)
-
 n=[1,2,-3,-4,5,6]
 p_n=[n for n in n if n>=0]
 n_n=[n for n in n if n<=0]
