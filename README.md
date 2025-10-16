@@ -189,3 +189,30 @@ passing_grade=[grade for grade in grades if grade>=50]
 print(passing_grade)
 
 
+
+
+😃
+
+include <iostream>
+using namespace std;
+int main()
+{
+float num1,num2, add, sub, mult, div;
+
+cout<< " enter the first number :"<<endl;
+cin>>num1;
+cout<<"enter the second number :"<<endl;
+cin>>num2;
+add= num1+num2;
+sub=num1-num2;
+mult=num1*num2;
+div=num1/num2;
+
+cout<<"the sum of the two numbers is " <<add<<endl;
+cout<<" the subtraction of the two numbers is "<<sub<<endl;
+cout<<" the multiplication of the two numbers is "<<mult<<endl;
+cout <<" the division of the two numbers is "<<div<<endl;
+return 0;
+} 
+
+
