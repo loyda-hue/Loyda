@@ -257,3 +257,14 @@ int main ()
 
     return 0;
 }
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int apple;
+    apple=10;
+    cout<<"we have bought " <<apple<< " apples."<<endl;
+    return 0;
+    } 
