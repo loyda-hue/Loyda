@@ -1,4 +1,4 @@
-1
+we1
 # Loyda
 Every commit is a step forward in my coding journey. One day, this repo will tell the story of my growth.
 
@@ -268,3 +268,20 @@ int main() {
     cout<<"we have bought " <<apple<< " apples."<<endl;
     return 0;
     } 
+
+
+#include<iostream>
+using namespace std;
+enum days {mon=1,tue,wed,thu,fri,sat,sun};
+int main()
+{
+days yesterday= mon ;
+days today = thu ;
+days tomorrow = fri ;
+
+cout<<"yesterday value "<< yesterday<< endl;
+cout<<"tomorrow value" <<tomorrow<<endl;
+cout<<"today value"<<today<<endl;
+return 0;
+    
+}
