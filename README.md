@@ -315,3 +315,19 @@ int main() {
     cout<<"The temperature in celcius is " <<celcius<<endl;
     return 0;
     }
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int mark;
+    cout<<"Enter your grade :";
+    cin>> mark;
+    if (mark>=50)
+    cout<< "congratulations you are passed";
+    else
+    cout<<" sorry you are not passed"<<endl;
+    return 0;
+    }
