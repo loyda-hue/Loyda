@@ -228,4 +228,32 @@ area=length*width;
 cout<<"  the area of the rectangle is: "<<area<<" square meters." <<endl;
 return 0;
 }
-    
+    #include<iostream>
+using namespace std;
+int main ()
+
+{
+    int age, num, year, width, length, area;
+    cout<<"Hello world!"<<endl;
+    cout<<" Enter your age:"<<endl;
+    cin>>age;
+    cout<<" you are "<< age<< " years old."<<endl;
+    cout<<" enter a number"<<endl;
+    cin>>num;
+    cout<<" You entered number " <<num<<endl;
+    cout<<"enter acadamic year: " <<endl;
+    cin>>year;
+    cout<<"Enter your age: "<<endl;
+    cin>>age;
+    cout<<"year :"<< year<<endl;
+    cout<<"age :"<<age<<endl;
+    cout<<"Enter the width of the room:";
+    cin>>width;
+    cout<<" Enter the length of the room:";
+    cin>> length;
+    area= length*width;
+    cout<<"the area of the the room is " <<area<< " square meters. "<<endl;
+
+
+    return 0;
+}
