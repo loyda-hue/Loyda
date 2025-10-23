@@ -303,3 +303,15 @@ int main() {
     cout<<"total wedges = "<<pay<<"ETB";
     return 0;
     }
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    double fahrenheit, celcius;
+    cout<<" Enter temperature in Fahrenheit: " << endl;
+    cin>>fahrenheit;
+    celcius= (fahrenheit-32)*5/9;
+    cout<<"The temperature in celcius is " <<celcius<<endl;
+    return 0;
+    }
