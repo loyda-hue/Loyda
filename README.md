@@ -285,3 +285,21 @@ cout<<"today value"<<today<<endl;
 return 0;
     
 }
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    double hours, pay;
+    cout<<" Enter hours worked" << endl;
+    cin>>hours;
+    if (hours<=40)
+    pay= hours*180.25;
+    else
+    pay= hours*180.25 + (hours-40)*120;
+    cout<<"total wedges = "<<pay<<"ETB";
+    return 0;
+    }
