@@ -414,5 +414,22 @@ int main()
     return 0;
     
  }
-    
+
+
+
+
+	#include<iostream>
+using namespace std;
+int main(){
+	int mark;
+	char grade;
+cout<<"enter your mark result: ";
+cin>>mark;
+	if(mark>50)
+	    grade='p';
+	else
+	    grade='f';
+cout<<"your grade is "<<grade<<endl;
+return 0;
+}
     
