@@ -432,4 +432,29 @@ cin>>mark;
 cout<<"your grade is "<<grade<<endl;
 return 0;
 }
-    
+
+
+
+
+	#include<iostream>
+using namespace std;
+
+int main()
+{
+   int mark;
+   cout<<" enter your mark: ";
+   cin>>mark;
+   if (mark>=0 and mark<=100)
+   { if (mark>=80)
+   cout<<"excelent";
+   else if (mark>=60)
+   cout<<"good";
+   else if (mark>=50)
+   cout<<"satisfactory";
+   else
+   cout<<"the number you entered is not valid.";
+   return 0;
+  }
+}	
+	
+	
