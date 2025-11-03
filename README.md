@@ -481,3 +481,37 @@ else
 return 0;
 }
 
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,j,x;
+	cout<<"enter a number";
+	cin>>i>>j;
+	x=i>=j? i : j;
+	cout <<x;
+	return 0;
+	
+}
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int j;
+	j=-5;
+	while (j<=0)
+{
+
+	cout<<j<<" ";
+	j=j+1;
+}
+	return 0;
+	
+}
+
+
+
