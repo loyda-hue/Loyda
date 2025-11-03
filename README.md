@@ -514,4 +514,22 @@ int main()
 }
 
 
+#include<iostream>
+using namespace std;
+int main()
+{
+int i;
+cout<<" ENTERWE A NUMBER: ";
+cin>>i;
+if (i%2==0)
+cout<<"the number you entered is an even neumber."<<endl;
+else
+cout<<" the number you entered is an odd number.";
+	return 0;
+	
+	
+}
+
+
+
 
