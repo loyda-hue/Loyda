@@ -529,7 +529,48 @@ cout<<" the number you entered is an odd number.";
 	
 	
 }
+#include<iostream>
+using namespace std;
+int main(){
+float l, w, h, p, a, c, r, v, s;
+int choice;
+const float pi=3.14;
+char again;
+cout<<"what would you like to calculate: \n 1. rectangle \n 2. circle \n 3. square";
+cin>>choice;
 
+switch(choice){
+
+case 1: 
+cout<<"enter length, Haight and width respectively." ;
+cin>> l>>w>>h;
+a=l*w; p=2*(l+w); v=l*w*h;
+cout<<" a= "<<a<<endl;
+cout<<"p= " <<p<<endl;
+cout<<"volume"<<v<<endl;
+break;
+case 2:
+cout<<"enter radius and height" ;
+cin>>r>>h;
+a= pi*r*r; c=2*p*r; v=a*h;
+cout<<" area= "<<a<<endl;
+cout<<" circumference= "<< c<<endl;
+cout<<" volume = "<<v<<endl;
+break;
+case 3:
+cout<<"enter s";
+cin>>s;
+a=s*s; p=4*s; v=s*s*s;
+cout<<"area= " <<a<<endl;
+cout<<"perimeter=" <<p<<endl;
+cout<<"volume = " <<v<<endl;
+break;
+default:
+cout<<" invalid voice." ;
+}
+while (again=='Y')
+return 0;
+}
 
 
 
