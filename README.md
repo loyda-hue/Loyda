@@ -573,4 +573,19 @@ return 0;
 }
 
 
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){ 
+int r;
+const double pi=3.14; 
+
+cout<<" radius of the circle: " ;
+cin>>r;
+double area= pi* pow(r,2);
+cout<<area;
+return 0;
+}
+
+
 
